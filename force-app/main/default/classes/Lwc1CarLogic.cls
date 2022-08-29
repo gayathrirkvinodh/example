@@ -26,6 +26,7 @@ public with sharing class Lwc1CarLogic {
         }
         
         return carLst;
+        
     }
 
     @auraEnabled(cacheable=true)
